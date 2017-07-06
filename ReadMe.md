@@ -1,4 +1,8 @@
-# Khung giáo trình
+# JavaScript by Examples
+Thông qua nhiều ví dụ nhỏ, có tính minh hoạ, so sánh đối lập giúp học viên
+hiểu rõ kỹ thuật lập trình JavaScript trên trình duyệt và Node.js
+
+Khoá học được thiết kế bởi đội ngũ lập trình viên Techmaster.
 
 # I. Cài Đặt, Cấu Hình Môi Trường
 ## Cài đặt, cấu hình môi trường
@@ -81,6 +85,7 @@ Bài tập: vẽ bảng cửu chương, tính giai thừa, vẽ hình thoi, tín
 - Khai báo hàm
 - Truyền tham số cho hàm: byValue vs byReference
 - Hàm là một đối tượng. Hàm trả về hàm
+- Dùng prototype để bổ xung phương thức
 
 ## 5. Mảng
 - Mảng 1 chiều, chiều dài mảng, lấy phần tử thứ i trong mảng
@@ -89,15 +94,24 @@ Bài tập: vẽ bảng cửu chương, tính giai thừa, vẽ hình thoi, tín
 - Tìm kiếm phần tử trong mảng
 - Sắp xếp mảng theo tiêu chí
 - Array.prototype để bổ xung phương thức cho mảng. [Tham khảo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype)
-
+- Mảng 2 chiều
 Bài tập:
 - Nghịch đảo mảng
 - Tìm số phần tử chung có trong 2 mảng.
--  
 
-## 6. Đối tượng
+## 6. Chuỗi - String
+[Tham khảo](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String)
+- Khai báo string sử dụng single quote, double quote, string trên nhiều dòng.
+- Các escape character
+- Template string
+Bài tập: 
+- Đếm số từ khác biệt trong một chuỗi
+- Convert văn bản định dạng Markdown tối giản có 4 loại thẻ căn bản sang HTML
 
-## 7. Hàm nâng cao
+
+## 7. Đối tượng
+
+## 8. Hàm nâng cao
 - Anonymous Function - Hàm vô danh
 - Arrow function - Hàm vô danh rút gọn hay "Hàm suy ra" 
 - First-class-function - (hàm là một đối tượng, trong hàm có thể bổ xung thuộc tính)

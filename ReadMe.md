@@ -56,50 +56,51 @@
 ## 1. Kiểu dữ liệu cơ bản - Basic data type:
 
 . Khai báo var, let và const. Sự khác biệt của từng khai báo. Kiểm tra xem trình duyệt Chrome, Firefox, Safari đã hỗ trợ let và const chưa
-. Number - Số
-. Boolean
-. String - Chuỗi
-. Scoping và Hoisting
-. So sánh '==' và '==='
-. Loose typing: phép cộng giữa chuỗi và số
+- Number - Số
+- Boolean
+- String - Chuỗi
+- Scoping và Hoisting
+- So sánh '==' và '==='
+- Loose typing: phép cộng giữa chuỗi và số
 
 ## 2. Toán tử - Operator:
-. Mathematical operator - Toán tử toán học (+, -, *, /, %, ++, --)
-. Assignment operator - Toán tử gán (-=, +=, =, *=, /=,%=)
-. Relational operator - Toán tử quan hệ (>, < , <=, >=, ==, !==)
+- Mathematical operator - Toán tử toán học (+, -, *, /, %, ++, --)
+- Assignment operator - Toán tử gán (-=, +=, =, *=, /=,%=)
+- Relational operator - Toán tử quan hệ (>, < , <=, >=, ==, !==)
 Bài tập: ghi chi tiết ra
 
 ## 3. Cấu trúc lập trình - Control structure:
-. If then else
-. For, for in, for of, forEach
-. While - do while
-. Break - Continue
-. Switch
+- If then else
+- For, for in, for of, forEach
+- While - do while
+- Break - Continue
+- Switch
 Bài tập: vẽ bảng cửu chương, tính giai thừa, vẽ hình thoi, tính chỉ số BMI, cho mảng số tự nhiên, tìm ra mảng chứa phần tử duy nhất, tính lãi suất sau N tháng. Tham khảo quyển sách "Introduction to Java" hoặc CodeFight
 
 ## 4. Hàm căn bản
-. Khai báo hàm
-. Truyền tham số cho hàm: byValue vs byReference
-. 
-## 54. Mảng
-. Mảng 1 chiều, chiều dài mảng, lấy phần tử thứ i trong mảng
-. Duyệt mảng for và forEach
-. Thêm, xoá phần tử mảng: push, pop
-. Tìm kiếm phần tử trong mảng
-. Sắp xếp mảng theo tiêu chí
-. Array.prototype để bổ xung phương thức cho mảng. [Tham khảo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype)
+- Khai báo hàm
+- Truyền tham số cho hàm: byValue vs byReference
+- Hàm là một đối tượng. Hàm trả về hàm
+
+## 5. Mảng
+- Mảng 1 chiều, chiều dài mảng, lấy phần tử thứ i trong mảng
+- Duyệt mảng for và forEach
+- Thêm, xoá phần tử mảng: push, pop
+- Tìm kiếm phần tử trong mảng
+- Sắp xếp mảng theo tiêu chí
+- Array.prototype để bổ xung phương thức cho mảng. [Tham khảo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype)
 
 Bài tập:
-. Nghịch đảo mảng
-. Tìm số phần tử chung có trong 2 mảng.
-. 
+- Nghịch đảo mảng
+- Tìm số phần tử chung có trong 2 mảng.
+-  
 
 ## 6. Đối tượng
 
-## 6. Hàm nâng cao
-. Anonymous Function - Hàm vô danh
-. Arrow function - Hàm vô danh rút gọn hay "Hàm suy ra" 
-. First-class-function - (hàm là một đối tượng, trong hàm có thể bổ xung thuộc tính)
+## 7. Hàm nâng cao
+- Anonymous Function - Hàm vô danh
+- Arrow function - Hàm vô danh rút gọn hay "Hàm suy ra" 
+- First-class-function - (hàm là một đối tượng, trong hàm có thể bổ xung thuộc tính)
 
 - A function is an instance of the Object type
 - A function can have properties and has a link back to its constructor method
@@ -107,7 +108,7 @@ Bài tập:
 - You can pass the function as a parameter to another function
 - You can return the function from a function
 
-## 6. Quy ước lập trình - Coding Convention:
+## 8. Quy ước lập trình - Coding Convention:
 Tham khảo quy ước lập trình JavaScript của [AirBNB JavaScript coding convention](https://github.com/airbnb/javascript)
 Phần này chỉ cần dịch ra tiếng Việt là được push lên Github.
 
@@ -124,7 +125,6 @@ Bốn Tính chất cơ bản của OOP:
 
 ### Closure function
 ### Binding function
-
 
 
 ## 6. Callback - Promise:

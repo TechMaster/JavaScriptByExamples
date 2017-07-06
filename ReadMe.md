@@ -5,7 +5,7 @@ hiểu rõ kỹ thuật lập trình JavaScript trên trình duyệt và Node.js
 Khoá học được thiết kế bởi đội ngũ lập trình viên Techmaster.
 
 # I. Cài Đặt, Cấu Hình Môi Trường
-## Cài đặt, cấu hình môi trường
+## 1.Cài đặt, cấu hình môi trường
 - Javascript cho Front-end và Javascript cho Back-end:
     - Giống: Đều sử dụng chung một mô típ lập trình.
     - Khác:
@@ -43,17 +43,23 @@ Khoá học được thiết kế bởi đội ngũ lập trình viên Techmaste
     ```
     https://nodejs.org/en/download/
     ```
-## Sử dụng Chrome Dev Tools để run và debug Javascript Front-end
-(video)
-## Sử dụng NodeJS để run Javascript Back-end
-(video)
-## Một số IDE để run và debug Javascript Back-end
+
+
+**Một số IDE để run và debug Javascript Back-end**
 
 - Web Storm
 - PyCharm
 - PHP Storm
 - Visual Studio Code
 - ...
+
+## 2. JavaScript frond end giống và khác gì với lập trình JavaScript Node.js tạm gọi là back end?
+- Cùng sử dụng chung ngôn ngữ JavaScript và trình dịch Google V8
+- Node.js có bổ xung thêm [một số module](https://nodejs.org/dist/latest-v8.x/docs/api/)
+- JavaScript front end tương tác với DOM, Window trong trình duyệt, không truy cập được hệ thống file trên máy tính
+- Video sử dụng Chrome Dev Tools để run và debug Javascript Front-end**
+- Sử dụng NodeJS để run Javascript Back-end
+
 
 # II. Javascript Toàn Tập
 // số thứ tự sẽ quyết định sau.
@@ -116,12 +122,13 @@ Bài tập:
 
 ## 8. Hướng đối tượng
 - Encapsulation: Tính đóng gói, bảo mật. Javascript không có keyword public, private, protected, friend như C++
-- Inheritance: Tính kế thừa. Có
+- Inheritance: Tính kế thừa. Có 2 loại single inheritance (kế thừa từ 1 base class) và multiple inheritance (kế thừa từ nhiều base class)
 - Polymophism: Tính đa hình. [Xem thêm](https://www.youtube.com/watch?v=zdovG9cuEBA)
 - Abstraction: Tính trừu tượng: abstract class hay interface thì JavaScript chưa có
 [Object-Oriented JavaScript — A Deep Dive into ES6 Classes](https://www.sitepoint.com/object-oriented-javascript-deep-dive-es6-classes/)
 
-Hãy so sánh kế thừa theo kiểu prototype với kế thừa từ Class trong ES6
+- Hãy so sánh kế thừa theo kiểu prototype với kế thừa từ Class trong ES6
+- Tìm hiểu thêm về đa kế thừa [mixin](https://javascriptweblog.wordpress.com/2011/05/31/a-fresh-look-at-javascript-mixins/)
 
 ## 8. Hàm nâng cao
 - Anonymous Function - Hàm vô danh
@@ -134,25 +141,31 @@ Hãy so sánh kế thừa theo kiểu prototype với kế thừa từ Class tro
 - You can pass the function as a parameter to another function
 - You can return the function from a function
 
-## 8. Quy ước lập trình - Coding Convention:
+## 9. Quy ước lập trình - Coding Convention:
 Tham khảo quy ước lập trình JavaScript của [AirBNB JavaScript coding convention](https://github.com/airbnb/javascript)
 Phần này chỉ cần dịch ra tiếng Việt là được push lên Github.
 
-## 7. Lập trình hướng đối tượng - Object Oriented Programming (OOP):
+## 10. Callback
+
+## 11. Promise
+
+## 10: Functional Programming
+[Bài viết của Linh Ngo](https://github.com/NLinh2911/Functional-Programming)
+[serie bài viết của TobyHo đếm số từ trong văn bản text](http://tobyho.com/2015/11/09/functional-programming-by-example/)
 
 
 
-
-### Closure function
-### Binding function
-
-
-## 6. Callback - Promise:
 
 ### Callback function - Hàm Callback:
 ### Async và Await:
 ### Yield / next:
 ### Promise:
+
+## 11: Closure function
+
+### Binding function
+
+
 
 
 

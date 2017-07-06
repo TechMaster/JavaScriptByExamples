@@ -108,8 +108,20 @@ Bài tập:
 - Đếm số từ khác biệt trong một chuỗi
 - Convert văn bản định dạng Markdown tối giản có 4 loại thẻ căn bản sang HTML
 
-
 ## 7. Đối tượng
+[Tham khảo](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
+- Đối tượng và thuộc tính
+- Tạo đối tượng, hàm tạo đối tượng, (xem)[https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS]
+- Class trong ES6
+
+## 8. Hướng đối tượng
+- Encapsulation: Tính đóng gói, bảo mật. Javascript không có keyword public, private, protected, friend như C++
+- Inheritance: Tính kế thừa. Có
+- Polymophism: Tính đa hình. [Xem thêm](https://www.youtube.com/watch?v=zdovG9cuEBA)
+- Abstraction: Tính trừu tượng: abstract class hay interface thì JavaScript chưa có
+[Object-Oriented JavaScript — A Deep Dive into ES6 Classes](https://www.sitepoint.com/object-oriented-javascript-deep-dive-es6-classes/)
+
+Hãy so sánh kế thừa theo kiểu prototype với kế thừa từ Class trong ES6
 
 ## 8. Hàm nâng cao
 - Anonymous Function - Hàm vô danh
@@ -128,13 +140,7 @@ Phần này chỉ cần dịch ra tiếng Việt là được push lên Github.
 
 ## 7. Lập trình hướng đối tượng - Object Oriented Programming (OOP):
 
-Bốn Tính chất cơ bản của OOP:
-- Encapsulation: Tính đóng gói, bảo mật: không dám chắc
-- Inheritance: Tính kế thừa. Có
-- Polymophism: Tính đa hình. [Xem thêm](https://www.youtube.com/watch?v=zdovG9cuEBA)
-- Abstraction: Tính trừu tượng
-### Prototype 
-### Class 
+
 
 
 ### Closure function

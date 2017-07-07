@@ -146,6 +146,8 @@ Tham khảo quy ước lập trình JavaScript của [AirBNB JavaScript coding c
 Phần này chỉ cần dịch ra tiếng Việt là được push lên Github.
 
 ## 10. Callback
+- Vấn đề đặt ra khi chạy một hàm tốn thời gian gây hiệu ứng chờ đợi
+- Hàm callback - Asynchronous: ví dụ cho front end và ví dụ cho back end
 
 ## 11. Promise
 

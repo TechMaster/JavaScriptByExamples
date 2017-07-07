@@ -29,6 +29,7 @@ Khoá học được thiết kế bởi đội ngũ lập trình viên Techmaste
 - Break - Continue
 - Switch
 - Các toán tử đặc biệt của JavaScript
+
 Bài tập: vẽ bảng cửu chương, tính giai thừa, vẽ hình thoi, tính chỉ số BMI, cho mảng số tự nhiên, tìm ra mảng chứa phần tử duy nhất, tính lãi suất sau N tháng. Tham khảo quyển sách "Introduction to Java" hoặc CodeFight
 
 ## 5. Hàm căn bản
@@ -79,8 +80,10 @@ Bài tập:
 
 - Hãy so sánh kế thừa theo kiểu prototype với kế thừa từ Class trong ES6
 - Tìm hiểu thêm về đa kế thừa [mixin](https://javascriptweblog.wordpress.com/2011/05/31/a-fresh-look-at-javascript-mixins/)
+- Binding function
 
 ## 11. Hàm nâng cao
+- Closure Function
 - Anonymous Function - Hàm vô danh
 - Arrow function - Hàm vô danh rút gọn hay "Hàm suy ra" 
 - First-class-function - (hàm là một đối tượng, trong hàm có thể bổ xung thuộc tính)
@@ -91,13 +94,9 @@ Bài tập:
 - You can pass the function as a parameter to another function
 - You can return the function from a function
 
-### Closure function
-### Binding function
-
 ## 12. Quy ước lập trình - Coding Convention:
 Tham khảo quy ước lập trình JavaScript của [AirBNB JavaScript coding convention](https://github.com/airbnb/javascript)
 Phần này chỉ cần dịch ra tiếng Việt là được push lên Github.
-
 
 ## 13. Callback
 - Vấn đề đặt ra khi chạy một hàm tốn thời gian gây hiệu ứng chờ đợi

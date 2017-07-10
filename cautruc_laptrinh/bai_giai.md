@@ -1,6 +1,6 @@
 # Giải bài tập
 
-### Giải phương trình bậc 2
+### If else
 ```javascript
 let a = 1, b = 2, c = 1; // Khai báo biến và gán 1 số cụ thể
 let delta = b * b - 4 * a * c; // Tính delta
@@ -19,4 +19,62 @@ if(canDelta < 0){
     console.log('Phuơng trình có nghiệm kép: ');
     console.log('x = ' + x);
 }
+```
+
+### For
+
+Bài 1) 
+
+```javascript
+for(let i = 1; i < 10; i++){
+    for(let j = 1; j < 11; j++){
+        console.log(i + ' x ' + j + ' = ' + i*j);
+    }
+    console.log('-----------');
+}
+```
+
+Bài 2)
+
+```javascript
+let n = 8;
+let giaiThua = 1;
+for(let i = 2; i <= 4; i++){
+    giaiThua *= i;
+}
+console.log(giaiThua);
+```
+
+### While - Do while
+
+Bài 1)
+
+```javascript
+let i = 1;
+while(i < 10){
+    let j = 1;
+    while(j <= 10){
+        console.log(i + ' x ' + j + ' = ' + i*j);
+        j++;
+    }
+    i++;
+    console.log('-----------');
+}
+```
+
+Bài 2)
+
+```javascript
+let i = 1;
+do{
+    let j = 1;
+    do{
+        console.log(i + ' x ' + j + ' = ' + i*j);
+        j++;
+    }
+    while(j <= 10);
+    i++;
+    console.log('-----------');
+}
+while(i < 10);
 ```

@@ -1,7 +1,6 @@
 # For - Cấu trúc lập trình
 
-- Là một trong những thành phần quan trọng trong lập trình.
-- Dùng để lặp tất cả phần tử trong mảng, mảng đối tượng hoặc trong một khoảng giá trị nào đó để xử lý dữ liệu.
+Dùng để lặp tất cả phần tử trong mảng, mảng đối tượng hoặc trong một khoảng giá trị nào đó để xử lý dữ liệu.
 
 ### 1) Vòng lặp For
 
@@ -190,6 +189,7 @@ Thuộc tính: 3, Giá trị: Lemon
 
 # Bài tập
 
-Sử dụng vòng lặp **for** để vẽ bảng cửu chương như hình:
-
+1. Sử dụng vòng lặp **for** để vẽ bảng cửu chương như hình:
 ![Bảng cửu chương](images/1.jpg)
+
+2. Tính giai thừa n.

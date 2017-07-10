@@ -23,12 +23,12 @@ Khoá học được thiết kế bởi đội ngũ lập trình viên Techmaste
 - Loose typing: phép cộng giữa chuỗi và số
 
 ## 4. Cấu trúc lập trình - Control structure:
+- Các toán tử đặc biệt của JavaScript
 - If then else
 - For, for in, for of, forEach
 - While - do while
 - Break - Continue
 - Switch
-- Các toán tử đặc biệt của JavaScript
 
 Bài tập: vẽ bảng cửu chương, tính giai thừa, vẽ hình thoi, tính chỉ số BMI, cho mảng số tự nhiên, tìm ra mảng chứa phần tử duy nhất, tính lãi suất sau N tháng. Tham khảo quyển sách "Introduction to Java" hoặc CodeFight
 
@@ -55,6 +55,7 @@ Bài tập:
 - Khai báo string sử dụng single quote, double quote, string trên nhiều dòng.
 - Các escape character
 - Template string
+
 Bài tập: 
 - Đếm số từ khác biệt trong một chuỗi
 - Convert văn bản định dạng Markdown tối giản có 4 loại thẻ căn bản sang HTML

@@ -23,7 +23,7 @@ if(canDelta < 0){
 
 ### For
 
-Bài 1) 
+Bài 1.
 
 ```javascript
 for(let i = 1; i < 10; i++){
@@ -34,7 +34,7 @@ for(let i = 1; i < 10; i++){
 }
 ```
 
-Bài 2)
+Bài 2.
 
 ```javascript
 let n = 8;
@@ -47,7 +47,7 @@ console.log(giaiThua);
 
 ### While - Do while
 
-Bài 1)
+Bài 1.
 
 ```javascript
 let i = 1;
@@ -62,7 +62,7 @@ while(i < 10){
 }
 ```
 
-Bài 2)
+Bài 2.
 
 ```javascript
 let i = 1;
@@ -77,4 +77,81 @@ do{
     console.log('-----------');
 }
 while(i < 10);
+```
+
+### Các toán tử
+
+Bài 1.
+
+```javascript
+let x = 41;
+let y = 15;
+
+console.log('(x + y) = ', (x + y));
+console.log('(x - y) = ', (x - y));
+console.log('(x * y) = ', (x * y));
+console.log('(x / y) = ', (x / y));
+console.log('(x % y) = ', (x % y));
+console.log('(x++) = ', (x++));
+console.log('(x--) = ', (x--));
+console.log('(++y) = ', (++y));
+console.log('(--y) = ', (--y));
+```
+
+Bài 2.
+
+```javascript
+let x = 41;
+let y = 15;
+
+console.log('(x == y) => ', (x == y));
+console.log('(x != y) => ', (x != y));
+console.log('(x > y) => ', (x > y));
+console.log('(x >= y) => ', (x >= y));
+console.log('(x < y) => ', (x < y));
+console.log('(x <= y) => ', (x <= y));
+```
+
+Bài 3.
+
+```javascript
+let x = 41;
+let y = 15;
+
+console.log('(x += y) => x =', x += y); // x = 56
+console.log('(x %= y) => x =', x %= y); // x = 11
+console.log('(++x) => x =', ++x); // x = 12
+```
+
+### Switch case
+
+Bài 1.
+
+```javascript
+let thu = 5;
+switch(thu){
+    case 2:
+        console.log('Thứ hai');
+        break;
+    case 3:
+        console.log('Thứ ba');
+        break;
+    case 4:
+        console.log('Thứ tư');
+        break;
+    case 5:
+        console.log('Thứ năm');
+        break;
+    case 6:
+        console.log('Thứ sáu');
+        break;
+    case 7:
+        console.log('Thứ bảy');
+        break;
+    case 8:
+        console.log('Chủ nhật');
+        break;
+    default:
+        console.log('Ngày không tồn tại!');
+}
 ```

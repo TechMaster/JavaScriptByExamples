@@ -8,7 +8,7 @@
 
 [Toán tử gán](#4-toán-tử-gán)
 
-[Độ ưu tiên của các toán tử](#5-độ-ưu-tiên-của-các-toán-tử)
+[Độ ưu tiên của các toán tử](#5-Độ-ưu-tiên-của-các-toán-tử)
 
 ### 1) Toán tử số học
 
@@ -268,5 +268,14 @@ Kết quả:
 6	            %=
 ```
 
-
 # Bài tập
+
+Cho x = 41, y = 15
+
+Bài 1. Sử dụng tất cả toán tử số học để tính x và y
+
+Bài 2. Sử dụng tất cả toán tử so sánh để so sánh x và y
+
+Bài 3. Cộng x với y và cho x. Sau đó lấy x chia cho y lấy phần dư và gán vào x. Sau đó tăng x lên 1.
+
+

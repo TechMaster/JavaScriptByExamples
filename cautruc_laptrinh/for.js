@@ -1,12 +1,7 @@
-let i = 1;
-do{
-    let j = 1;
-    do{
-        console.log(i + ' x ' + j + ' = ' + i*j);
-        j++;
+for(let i=1; i<10; i++){
+    if(i > 5){
+        continue;
     }
-    while(j <= 10);
-    i++;
-    console.log('-----------');
+    console.log('Vòng lặp', i);
 }
-while(i < 10);
+console.log('Kết thúc');

@@ -18,3 +18,9 @@ node if_else.js
 [Bài 2: If else](https://github.com/TechMaster/JavaScriptByExamples/tree/master/cautruc_laptrinh/if_else.md)
 
 [Bài 3: For](https://github.com/TechMaster/JavaScriptByExamples/tree/master/cautruc_laptrinh/for.md)
+
+[Bài 4: While - Do while](https://github.com/TechMaster/JavaScriptByExamples/tree/master/cautruc_laptrinh/while_do_while.md)
+
+[Bài 5: Switch Case](https://github.com/TechMaster/JavaScriptByExamples/tree/master/cautruc_laptrinh/switch_case.md)
+
+[Bài 6: Breack - Continue](https://github.com/TechMaster/JavaScriptByExamples/tree/master/cautruc_laptrinh/break_continue.md)

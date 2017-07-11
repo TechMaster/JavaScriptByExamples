@@ -27,8 +27,8 @@ Khoá học được thiết kế bởi đội ngũ lập trình viên Techmaste
 - If then else
 - For, for in, for of, forEach
 - While - do while
+- Switch - case
 - Break - Continue
-- Switch
 
 Bài tập: vẽ bảng cửu chương, tính giai thừa, vẽ hình thoi, tính chỉ số BMI, cho mảng số tự nhiên, tìm ra mảng chứa phần tử duy nhất, tính lãi suất sau N tháng. Tham khảo quyển sách "Introduction to Java" hoặc CodeFight
 

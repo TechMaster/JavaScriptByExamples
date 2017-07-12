@@ -1,7 +1,8 @@
-for(let i=1; i<10; i++){
-    if(i > 5){
-        continue;
-    }
-    console.log('Vòng lặp', i);
-}
-console.log('Kết thúc');
+let tienGui = 100000000;
+let laiSuat = 0.007;
+let thangGui = 8;
+
+let tongtien = tienGui * Math.pow((1 + laiSuat),thangGui);
+
+console.log('Cả vốn lẫn lãi là: ', tongtien);
+

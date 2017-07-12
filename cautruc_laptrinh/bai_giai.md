@@ -125,8 +125,6 @@ console.log('(++x) => x =', ++x); // x = 12
 
 ### Switch case
 
-Bài 1.
-
 ```javascript
 let thu = 5;
 switch(thu){
@@ -154,4 +152,32 @@ switch(thu){
     default:
         console.log('Ngày không tồn tại!');
 }
+```
+
+### Break - Continue
+
+Bài 1. 
+
+```javascript
+for(let i = 1; i <= 10; i++){
+    console.log('Chạy vòng ', i);
+    if(i >= 5){
+        break;
+    }
+}
+console.log('Kết thúc!');
+```
+
+Bài 2.
+
+```javascript
+for(let i = 1; i <= 10; i++){
+    console.log('VĐV1: Chạy vòng ', i);
+    if(i > 5){
+        continue;
+    }
+    console.log('VĐV2: Chạy vòng ', i);
+    console.log('');
+}
+console.log('Kết thúc!');
 ```

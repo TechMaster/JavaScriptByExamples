@@ -93,6 +93,4 @@ Orange
 
 # Bài tập
 
-1) Nhập vào 1 số từ 2 đến 8 và in ra thứ.
-
-
+Nhập vào 1 số từ 2 đến 8 và in ra thứ.

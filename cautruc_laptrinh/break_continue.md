@@ -34,6 +34,8 @@ Lệnh *continue** dùng để bỏ qua vòng lặp hiện tại để chạy v�
 
 Ví dụ:
 
+Nếu vòng lặp hiện tại lớn hơn 5 sẽ sử dụng lệnh **continue** để không in ra.
+
 ```javascript
 for(let i=1; i<10; i++){
     if(i > 5){
@@ -55,4 +57,8 @@ Vòng lặp 5
 Kết thúc
 ```
 
-**Giải thích:** Nếu vòng lặp lơn hơn 5 sẽ sử dụng lệnh **continue** để không in ra.
+## Bài tập
+
+Bài 1. Một vận động viên mỗi ngày phải chạy 1 con đường 10 lần. Vì hôm nay anh ta mệt nên chỉ chạy được 5 vòng. Bạn hay giúp anh ta chạy 5 vòng thôi nhé.
+
+Bài 2. Lần này có 2 VĐV: VĐV1 và VĐV2. Mỗi VĐV phải chạy 1 con đường 10 lần. Vì hôm nay VĐV2 mệt nên chỉ chạy được 5 vòng. Bạn hay giúp VĐV2 chạy 5 vòng, nhưng nhớ VĐV1 phải chạy đủ 10 vòng đấy nhé.

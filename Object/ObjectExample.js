@@ -1,20 +1,21 @@
-let person = {
+let person = { // khai báo dạng literal hay còn gọi là kiểu hàn lâm
     name: 'Tom',
-    age: 34,
-    intro(){
-        return `Im ${this.name} and im ${this.age} years old.`
+    age: 16,
+    hobbies: ['Reading', 'Coding', 'Gaming'],
+    family: {
+        father: 'Spike',
+        mother: 'Hanna'
+    },
+    intro() {
+        return `Hi, My name is ${this.name}`+
+        `,im ${this.age} years old.`
     }
 }
+console.log(person.name)
+console.log(person.intro());
 
+let obj = {}
+obj.intro = () => {
+    
+}
 
-
-//Dot Notation hay còn truy vấn trực tiếp
-
-// Bracket Notation - Truy vấn gián tiếp thông qua dấu []
-
-
-
-let test = 'name'
-
-console.log(person.test);
-console.log(person[test]);

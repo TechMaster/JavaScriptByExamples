@@ -118,13 +118,20 @@ let arr = [2, 3, 44, 89, 23, 44, 6, 2, 3, 101, 2, 3]
 // console.log(subArr); // in ra [ 4, 6, 88, 178, 46, 88, 12, 4, 6, 202 ]
 // console.log(arr) // in ra [ 2, 3, 44, 89, 23, 44, 6, 2, 3, 101 ]
 
-var flattened = [
-    [0, 1, 45, 9999],
-    [2, 3, 47, 98],
-    [4, 5, 100001]
-].reduce((a, b) => {
-    return a.concat(b)
-});
-flattened.sort((a,b)=> a-b)
-// flattened is [0, 1, 2, 3, 4, 5]
-console.log(flattened);
+// let flattened = [
+//     [0, 1, 45, 9999],
+//     [2, 3, 47, 98],
+//     [4, 5, 100001]
+// ].reduce((a, b) => {
+//     return a.concat(b)
+// }).sort((a,b)=> a-b);
+// // flattened
+// // flattened is [0, 1, 2, 3, 4, 5]
+// console.log(flattened);
+
+// Infinity
+
+arr = [false, null, undefined, Infinity, 1, 2, 3]
+let x = arr.filter(val => val)
+
+console.log(x);

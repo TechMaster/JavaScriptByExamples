@@ -30,7 +30,7 @@ const rootBy2 = (a, cb) => {
 }
 
 try {
-    add(2, 2, (err, resultOfAdd) => {
+    let x = add(2, 2, (err, resultOfAdd) => {
         if (err) {
             throw new Error(err)
         }
@@ -43,9 +43,11 @@ try {
                     throw new Error(err)
                 }
                 console.log(resultOfRoot);
+                return resultOfRoot
             })
         })
     })
+
 } catch (err) {
     console.log(err);
 }

@@ -1,5 +1,49 @@
 # Giải bài tập
 
+### Các toán tử
+
+Bài 1.
+
+```javascript
+let x = 41;
+let y = 15;
+
+console.log('(x + y) = ', (x + y));
+console.log('(x - y) = ', (x - y));
+console.log('(x * y) = ', (x * y));
+console.log('(x / y) = ', (x / y));
+console.log('(x % y) = ', (x % y));
+console.log('(x++) = ', (x++));
+console.log('(x--) = ', (x--));
+console.log('(++y) = ', (++y));
+console.log('(--y) = ', (--y));
+```
+
+Bài 2.
+
+```javascript
+let x = 41;
+let y = 15;
+
+console.log('(x == y) => ', (x == y));
+console.log('(x != y) => ', (x != y));
+console.log('(x > y) => ', (x > y));
+console.log('(x >= y) => ', (x >= y));
+console.log('(x < y) => ', (x < y));
+console.log('(x <= y) => ', (x <= y));
+```
+
+Bài 3.
+
+```javascript
+let x = 41;
+let y = 15;
+
+console.log('(x += y) => x =', x += y); // x = 56
+console.log('(x %= y) => x =', x %= y); // x = 11
+console.log('(++x) => x =', ++x); // x = 12
+```
+
 ### If else
 ```javascript
 let a = 1, b = 2, c = 1; // Khai báo biến và gán 1 số cụ thể
@@ -9,6 +53,9 @@ let a2 = 2 * a;
 if(canDelta < 0){
     console.log('Phương trình vô nghiệm');
 }else if(canDelta > 0){
+    /**
+    * Trả về 2 nghiệm
+    **/
     let x1 = (-b - canDelta) / a2;
     let x2 = (-b + canDelta) / a2;
     console.log('Phuơng trình có 2 nghiệm phân biệt');
@@ -79,49 +126,7 @@ do{
 while(i < 10);
 ```
 
-### Các toán tử
 
-Bài 1.
-
-```javascript
-let x = 41;
-let y = 15;
-
-console.log('(x + y) = ', (x + y));
-console.log('(x - y) = ', (x - y));
-console.log('(x * y) = ', (x * y));
-console.log('(x / y) = ', (x / y));
-console.log('(x % y) = ', (x % y));
-console.log('(x++) = ', (x++));
-console.log('(x--) = ', (x--));
-console.log('(++y) = ', (++y));
-console.log('(--y) = ', (--y));
-```
-
-Bài 2.
-
-```javascript
-let x = 41;
-let y = 15;
-
-console.log('(x == y) => ', (x == y));
-console.log('(x != y) => ', (x != y));
-console.log('(x > y) => ', (x > y));
-console.log('(x >= y) => ', (x >= y));
-console.log('(x < y) => ', (x < y));
-console.log('(x <= y) => ', (x <= y));
-```
-
-Bài 3.
-
-```javascript
-let x = 41;
-let y = 15;
-
-console.log('(x += y) => x =', x += y); // x = 56
-console.log('(x %= y) => x =', x %= y); // x = 11
-console.log('(++x) => x =', ++x); // x = 12
-```
 
 ### Switch case
 

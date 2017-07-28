@@ -2,7 +2,7 @@
 
 ### By value
 
-Nếu ta có 1 biến a ở ngoài hàm, truyền biến a đó vào hàm và thay đổi giá trị trong hàm thì biến a ở ngoài hàm không bị thay đổi.
+Nếu ta có 1 biến a ở ngoài hàm, truyền biến a đó vào hàm và thay đổi giá trị trong hàm thì biến a ban đầu không bị thay đổi.
 
 Ví dụ
 
@@ -20,7 +20,7 @@ console.log(a, obj); // 4 { name: 'Tectmaster' }
 
 ### By reference
 
-Nếu ta có biến là mảng hoặc mảng đối tượng mà trong hàm ta thay đổi thuộc tính của mảng hoặc đối tượng thì nó sẽ thay đổi cả mảng hoặc mảng đối tượng ngoài hàm.
+Nếu ta có biến là mảng hoặc mảng đối tượng mà trong hàm ta thay đổi thuộc tính của mảng hoặc đối tượng thì nó sẽ thay đổi cả mảng hoặc mảng đối tượng ban đầu.
 
 Ví dụ:
 
@@ -38,7 +38,7 @@ function changeParam(arr, obj) {
 }
 
 let arr = [1,2,3];
-let obj = {name: 'Techmaster', age: 6};
+let obj = {name: 'Techmaster', age: 5};
 changeParam(arr, obj);
 
 console.log(arr, obj); // [ 4, 2, 3 ] { name: 'Techmaster', age: 6 }

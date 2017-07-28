@@ -8,7 +8,7 @@ Mỗi hàm có 1 tên riêng không trùng nhau
 
 Hàm sẽ trả về một giá trị nào đó: Dùng lệnh **return** để trả về kết quả của hàm
 
-Hàm không trả về giá trị: Trong hàm không có lệnh **return**. Hạn chế dùng kiểu này. Ta chỉ nên dùng khi fix bug vì các biến trong hàm chỉ sử dụng được trong hàm.
+Hàm không trả về giá trị: Trong hàm không có lệnh **return**.
 
 Cú pháp:
 

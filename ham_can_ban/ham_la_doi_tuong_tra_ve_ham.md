@@ -31,7 +31,7 @@ function hamCha(){
     let conghaiso = (a, b) => {
         return a + b;
     }; // tạo 1 hàm cộng 2 số bằng ES6
-    return conghaiso; // Trả về hàm đó
+    return conghaiso; // Trả về 1 hàm
 }
 
 let func = hamCha();
@@ -45,18 +45,16 @@ Sử dụng object để chứa nhiều hàm và trả về object đó.
 
 ```javascript
 function hamCha(){
-    obj = {
-        conghaiso: function(a, b) {
-            return a + b;
-        },
-        truhaiso: (a, b) => {
-            return a - b;
-        }
-    };
+    /**
+    * Tạo 1 object để lưu các function vào object này 
+    */
+    obj = {};
+    obj.conghaiso = function(a, b) { return a + b };
+    obj.truhaiso = (a, b) => { return a - b };
     return obj;
 }
 
-let func = hamCha(); 
+let func = hamCha();
 
 console.log(func.conghaiso(1,2)); // 3
 console.log(func.truhaiso(3,2)); // 1

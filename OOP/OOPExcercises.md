@@ -58,12 +58,38 @@ listAllMethod(Array)
 */
 ```
 
-4. Nodejs: viết chương trình truyền vào một đường dẫn tới thư mục, in ra dạng cây cho tất cả các file và folder có trong thư mục đó:
+4. Viết bài toán tháp Hà nội bằng class và constructor function
+
+5. Nodejs: viết chương trình truyền vào một đường dẫn tới thư mục, in ra dạng cây cho tất cả các file và folder có trong thư mục đó:
 ```js
 fs.readdirSync()
 fs.statSync()
 // in ra
 /*
-
+   ├── src
+   |   ├── App.vue
+   |   ├── assets
+   |   |   └── logo.png
+   |   ├── components
+   |   |   └── Hello.vue
+   |   ├── main.js
+   |   └── router
+   |       └── index.js
+   ├── static
+   |   └── .gitkeep
+   └── test
+       ├── e2e
+       |   ├── custom-assertions
+       |   |   └── elementCount.js
+       |   ├── nightwatch.conf.js
+       |   ├── runner.js
+       |   └── specs
+       |       └── test.js
+       └── unit
+           ├── .eslintrc
+           ├── index.js
+           ├── karma.conf.js
+           └── specs
+               └── Hello.spec.js
 */
 ```

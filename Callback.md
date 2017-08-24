@@ -6,30 +6,29 @@ Hàm Callback - Hàm nâng cao trong Javascript
 
 #### Định nghĩa:
 
-Trong javascript, các hàm là một first-class objects (hay gọi là các đối tượng định nghĩa sẵn), vì thế nên hàm là một instance của Object, và được sử dụng như các object khác như String,Array,Number,...Và vì chính nó là một đối tượng, Function có thể:
+Trong javascript, các hàm là một first-class objects (hay gọi là các đối tượng định nghĩa sẵn), vì thế nên hàm là một instance của Object, và được sử dụng như các object khác như String,Array,Number,...Và vì chính Function là một đối tượng, hàm có thể:
 
 - Trữ trong các biến.
-- Truyền vào function khác như một tham số.
-- Khởi tạo trong một function khác.
-- Trả về từ (return from) một function khác.
+- Truyền vào hàm khác như một tham số.
+- Khởi tạo trong một hàm khác.
+- Trả về từ (return from) một hàm khác.
 
-Tóm lại, ta có thể  khai báo function dưới dạng biến (function expression),truyền function như một tham số vào một function khác hoặc trả về một function để có thể chạy hàm đấy sau.Ví dụ:
+Tóm lại, ta có thể khai báo hàm dưới dạng biểu thức (function expression),truyền hàm như một tham số vào một hàm khác hoặc trả về một hàm để có thể chạy hàm đấy sau.Ví dụ:
 
 ```javascript
 // Trữ function trong biến:
-let func = function log(x){
+const func = function logMe(x){
     console.log(x);
 }
 func(34)    // in ra 34
-log(34)     // in ra undefined
+logMe(34)     // in ra undefined
 
 // Khởi tạo trong một function khác
 function log(x) {
-    function newFunction() {
+    (function () {
         console.log('this is function inside function');
-    }
-    newFunction()
-    console.log(x);
+        console.log(x)
+    })(x)
 }
 log(54) //in ra 'this is function inside function' và 54
 
@@ -37,9 +36,11 @@ log(54) //in ra 'this is function inside function' và 54
 function sum(a, b) {
     return a + b
 }
+
 function multi(a, b) {
     return a * b
 }
+
 function calcNumber(a, b, callback) {
     return callback(a, b) // trả về một function
 }
@@ -64,7 +65,7 @@ Ta thấy một function vô danh với 2 tham số value và index được tru
 
 #### Sự bất đồng bộ trong Javascript:
 
-Nói đơn giản về sự bất đồng bộ là hai tiến trình lúc gọi tới thì tuần tự nhưng lúc kết thúc thì không tuần tư, dẫn tới việc kiểm soát kết quả của 2 tiến trình đấy khó khăn. Giống như việc bạn đang download một file nhạc và cố  bật nó lúc nó vẫn đang load vậy, ta phải chờ download xong rồi mới chạy thì callback cũng vậy, nó sẽ chờ hàm trước chạy xong rồi chạy tiếp hàm sau để xử lý bất đồng bộ đó.ví dụ về bất đồng bộ:
+Nói đơn giản về sự bất đồng bộ là hai tiến trình lúc gọi tới thì tuần tự nhưng lúc kết thúc thì không tuần tư, dẫn tới việc kiểm soát kết quả của 2 tiến trình đấy khó khăn. Giống như việc bạn đang download một file nhạc và cố bật nó lúc nó vẫn đang load vậy, ta phải chờ download xong rồi mới chạy thì callback cũng vậy, nó sẽ chờ hàm trước chạy xong rồi chạy tiếp hàm sau để xử lý bất đồng bộ đó.ví dụ về bất đồng bộ:
 
 ```javascript
 function logFirst() {

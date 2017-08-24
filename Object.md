@@ -31,7 +31,7 @@ This sẽ trỏ tới đối tượng đang bao quanh nó.
 
 ## II. Truy vấn Properties và Methods của Object
 ***************
-Phần này ta sẽ học về cách truy vấn thuộc tính và phương thức của đối tượng (properties và method của Object) thông qua dấu "." và dấu "[]"
+Để truy vấn thuộc tính và phương thức của đối tượng (properties và method của Object) ta dùng dấu "." và dấu "[]"
 
 ### Dot Notation và Bracket Notation
 
@@ -75,13 +75,15 @@ console.log(cat.test)   // in ra 'Undefined'
 console.log(cat[test])  // in ra 'Tom' giống cat['name']
 ```
 
-Lúc này, khi ta gõ `cat.test` thì tham số test sẽ bị truyền trực tiếp vào đối tượng `cat` và test sẽ trở thành một thuộc tính mới của `cat`, do đó khi gõ `cat.test` -> gọi tới thuộc tính `test` của `cat` và tất nhiên `cat` không có thuộc tính `test` nên sẽ cho kết quả `undefined`.
+Lúc này, khi ta gõ `person.test` thì tham số test sẽ bị truyền trực tiếp vào đối tượng `person` và test sẽ trở thành một thuộc tính mới của `person`, do đó khi gõ `person.test` -> gọi tới thuộc tính `test` của `person` và tất nhiên `person` không có thuộc tính `test` nên sẽ cho kết quả `undefined`.
 
-Còn `cat[test]` thì sao ?, cách gọi này giống như gọi trong mảng, nó sử dụng tham số để gián tiếp truy vấn tới thuộc tính của đối tượng. Khi ta viết `cat.['name']` thì hiểu như ta truyền một chuỗi string 'name' vào ngoặc vuông để tìm tới thuộc tính giống với chuỗi 'name' đó. Thế nên bạn muốn truyền một tham số động để tìm thuộc tính của một đối tượng thì nên dùng Bracket, còn không thì dùng Dot.
+Còn `person[test]` thì sao ?, cách gọi này giống như gọi trong mảng, nó sử dụng tham số để gián tiếp truy vấn tới thuộc tính của đối tượng. Khi ta viết `person.['name']` thì hiểu như ta truyền một chuỗi string `'name'` vào ngoặc vuông để tìm tới thuộc tính giống với chuỗi `'name'` đó. Thế nên bạn Muốn truyền một tham số động để tìm thuộc tính của một đối tượng thì nên dùng Bracket, còn không thì dùng Dot.
 
 ## III. Tính Tham Chiếu của Đối Tượng
 
 Giống mảng, đối tượng có tính tham chiếu, tức là nếu ta gán đối tượng không đúng cách thì khi ta đổi giá trị thuộc tính của một đối tượng gán thì đối tượng bị gán cũng đổi theo - nó còn gọi là side effect (tác dụng phụ).
+
+Gỉa sử mình muốn khởi tạo một đối tượng với cấu trúc giống tom
 
 ```javascript
 let me = {

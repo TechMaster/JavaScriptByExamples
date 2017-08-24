@@ -35,7 +35,7 @@
 const fs = require('fs')
 const path = require('path')
 
-let srcPath = '/home/superquan/Dropbox';
+let srcPath = '/home/superquan/Desktop/myapp';
 let tem = '   ';
 
 function getDirectories(srcpath) {
@@ -46,14 +46,14 @@ function getDirectories(srcpath) {
     name = srcpath + '/' + fileItem;
     if (i === fileList.length - 1) {
       if (fs.statSync(name).isDirectory()) {
-        console.log(tem + '└── ' + fileItem.blue);
+        console.log(tem + '└── ' + fileItem);
       } else {
         console.log(tem + '└── ' + fileItem);
       }
 
     } else {
       if (fs.statSync(name).isDirectory()) {
-        console.log(tem + '├── ' + fileItem.blue);
+        console.log(tem + '├── ' + fileItem);
       } else {
         console.log(tem + '├── ' + fileItem);
       }

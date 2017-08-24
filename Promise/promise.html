@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Promise</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+    // const pro1 = new Promise((resolve, reject) => {
+    //     // console.log(`Handling add()`);
+    //     const add = (a, b) => {
+    //         if (typeof (a) !== 'number' || typeof (b) !== 'number') {
+    //             reject('a,b must be a number')
+    //         }
+    //         resolve(a + b)
+    //     }
+    //     add(3, "7")
+    //     // console.log(pro)
+    // })
+    // .then(val => {
+    //     return val;
+    // }).catch(err => err)
+
+
+    // const pro2 = new Promise((resolve, reject) => {
+    //     // console.log(`Handling add()`);
+    //     const add = (a, b) => {
+    //         if (typeof (a) !== 'number' || typeof (b) !== 'number') {
+    //             reject('a,b must be a number')
+    //         }
+    //         resolve(a + b)
+    //     }
+    //     add(3, 7)
+    // }).then(val => {
+    //     return val;
+    // }, err => {
+    //     return err;
+    // })
+
+    // const newPro = new Promise((resolve, reject) => {
+
+    // }).then(val => {
+    //     return val
+    // })
+
+    // console.log(newPro)
+
+    // setTimeout(function () {
+    //     console.log(pro1);
+    //     console.log(pro2);
+    // }, 2000);
+
+
+
+    // let promise1 = new Promise((resolve, reject) => {
+    //     setTimeout(function() {
+    //         resolve('resolved')
+    //     }, 500);
+    // })
+
+    // let promise2 = new Promise((resolve, reject) => {
+    //     setTimeout(function() {
+    //         reject('rejected')
+    //     }, 0);
+    // }).then(val => val, err => err)
+
+    // let x = Promise.all([1, 2, 3, 4, promise1, promise2]).then(val => {
+    //     console.log(val)
+    //     return val
+    // })
+
+
+    // setTimeout(function() {
+    //     console.log(x);
+    // }, 2000);
+
+    let x = Promise.all([Promise.reject(34), Promise.resolve(34)])
+    setTimeout(() => {
+        console.log(x)
+    },500)
+    </script>
+</body>
+
+</html>
